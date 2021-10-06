@@ -33,7 +33,7 @@ body {
 }
 #main{
   background-color: #185ADB;
-  height: 350px;
+  height: 500px;
   color: white;
   line-height: 30px;
 }
@@ -54,19 +54,12 @@ h1 {
   padding: 5px;
   background-color: #FFC947;
 }
-p a {
-  display: inline-block;
-  margin-left: 45%;
-  margin-top: 20px;
-  width: 20%;
-}
-p a img{
-  width: 30%;
-}
+
 #text{
   display: inline-block;
-  padding-right: 400px;
+  padding-right: 10%;
   font-size: 20px;
+  width: 50%;
 }
 #skill{
   background-color: #FFC947;
@@ -74,7 +67,7 @@ p a img{
   font-size: 20px;
   line-height: 30px;
   padding-left: 10%;
-  padding-top: 20px;
+  padding-top: 100px;
 }
 h3{
   font-size: 30px;
@@ -82,5 +75,31 @@ h3{
 }
 #footer{
   background-color: #EFEFEF;
-  height: 250px;
+  height: 200px;
+  text-align: center;
+}
+
+#cont1{
+  display: inline-block;
+  margin:auto;
+  margin-top: 20px;
+  width: 150px;
+  padding: 5px 1px;
+  text-align: center;
+}
+#cont1 img{
+  width: 100px;
+}
+
+#cont2{
+  display: inline-block;
+  margin:auto;
+  margin-top: 20px;
+  width: 150px;
+  padding: 5px 1px;
+  text-align: center;
+}
+
+#cont2 img{
+  width: 100px;
 }
