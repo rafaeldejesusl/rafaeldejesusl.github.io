@@ -1,34 +1,86 @@
 body {
-  background-color:#07106F ;
+  background-color: #185ADB;
+}
+.nav1{
+  display: inline-block;
+  width: 20%;
+  text-align: center;
+  padding: 20px;
+  background-color: #0A1931;
+  margin: 1%;
+  margin-left: 12%;
+}
+.nav2{
+  display: inline-block;
+  width: 20%;
+  text-align: center;
+  padding: 20px;
+  background-color: #0A1931;
+  margin: 1%;
+}
+.nav3{
+  display: inline-block;
+  width: 20%;
+  text-align: center;
+  padding: 20px;
+  background-color: #0A1931;
+  margin: 1%;
+}
+.button{
+  color: white;
+  font-size: 40px;
+  text-decoration: none;
+}
+#main{
+  background-color: #185ADB;
+  height: 350px;
+  color: white;
+  line-height: 30px;
 }
 h1 {
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
+  font-size: 30px;
+  color: white;
+  margin-bottom: 50px;
+  margin-top: 50px;
 }
-div {
-  background-color:#7D82B8 ;
-  margin: 50px;
-  padding-left: 10px;
-  padding-top: 0.005%;
-  padding-bottom: 0.005%;
-  border-radius: 20px;
-}
+
 .foto {
   border-radius: 20px;
   float: left;
   margin-right: 50px;
-  margin-left: 50px;
+  margin-left: 10%;
   padding: 5px;
-  background-color: #7D82B8;
+  background-color: #FFC947;
 }
 p a {
-  color: white;
-  font-size: 2em;
-  display: block;
-  text-align: center;
-  text-decoration: none;
+  display: inline-block;
+  margin-left: 45%;
+  margin-top: 20px;
+  width: 20%;
 }
-.text{
+p a img{
+  width: 30%;
+}
+#text{
   display: inline-block;
   padding-right: 400px;
+  font-size: 20px;
+}
+#skill{
+  background-color: #FFC947;
+  height: 250px;
+  font-size: 20px;
+  line-height: 30px;
+  padding-left: 10%;
+  padding-top: 20px;
+}
+h3{
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+#footer{
+  background-color: #EFEFEF;
+  height: 250px;
 }
