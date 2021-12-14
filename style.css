@@ -61,14 +61,28 @@ h1 {
   width: 60%;
 }
 
-#skill {
+#container {
   color: #FFC947;
   background-color: #0A1931;
   height: 500px;
   font-size: 20px;
   line-height: 30px;
   padding-left: 10%;
+  padding-right: 10%;
   padding-top: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#projects li a {
+  text-decoration: none;
+  color: #FFC947;
+}
+
+@media (hover: hover) {
+  #projects :hover li {
+  text-decoration: underline;
+  }
 }
 
 h3 {
@@ -126,7 +140,7 @@ li {
 
   .navi {
     margin-bottom: 10px;
-    width: 100%;
+    width: 80%;
   }
 
   #main {
@@ -138,5 +152,10 @@ li {
   
   #text {
     text-align: center;
+  }
+
+  #container {
+    flex-direction: column;
+    height: fit-content;
   }
 }
