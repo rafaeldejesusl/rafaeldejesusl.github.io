@@ -80,7 +80,7 @@ h1 {
 }
 
 @media (hover: hover) {
-  #projects :hover li {
+  #projects li :hover {
   text-decoration: underline;
   }
 }
