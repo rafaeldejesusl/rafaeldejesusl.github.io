@@ -64,12 +64,13 @@ h1 {
 #container {
   color: #FFC947;
   background-color: #0A1931;
-  height: 500px;
+  height: fit-content;
   font-size: 20px;
   line-height: 30px;
   padding-left: 10%;
   padding-right: 10%;
-  padding-top: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   display: flex;
   justify-content: space-between;
 }
