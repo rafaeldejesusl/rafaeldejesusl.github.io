@@ -139,9 +139,12 @@ li {
     align-items: center;
   }
 
+  nav a {
+    width: 90%;
+  }
+
   .navi {
     margin-bottom: 10px;
-    width: 80%;
   }
 
   #main {
