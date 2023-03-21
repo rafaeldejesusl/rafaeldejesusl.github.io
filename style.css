@@ -141,6 +141,21 @@ li {
   border-radius: 50%;
 }
 
+#cont3 {
+  display: inline-block;
+  margin:auto;
+  margin-top: 10px;
+  width: 150px;
+  padding: 5px 1px;
+  text-align: center;
+}
+
+#cont3 img {
+  width: 100px;
+  background-color: #EFEFEF;
+  border-radius: 50%;
+}
+
 @media screen and (max-width: 1000px) {
   nav {
     flex-direction: column;
