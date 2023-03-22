@@ -111,7 +111,7 @@ li {
   padding-top: 20px;
 }
 
-#cont1 {
+.contatos {
   display: inline-block;
   margin:auto;
   margin-top: 10px;
@@ -120,37 +120,7 @@ li {
   text-align: center;
 }
 
-#cont1 img {
-  width: 100px;
-  background-color: #EFEFEF;
-  border-radius: 50%;
-}
-
-#cont2 {
-  display: inline-block;
-  margin:auto;
-  margin-top: 10px;
-  width: 150px;
-  padding: 5px 1px;
-  text-align: center;
-}
-
-#cont2 img {
-  width: 100px;
-  background-color: #EFEFEF;
-  border-radius: 50%;
-}
-
-#cont3 {
-  display: inline-block;
-  margin:auto;
-  margin-top: 10px;
-  width: 150px;
-  padding: 5px 1px;
-  text-align: center;
-}
-
-#cont3 img {
+.contatos img {
   width: 100px;
   background-color: #EFEFEF;
   border-radius: 50%;
